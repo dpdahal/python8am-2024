@@ -4,61 +4,36 @@
 # list is represented by square brackets.
 # list can have different data types.
 
-# data =[] # empty list
+# data=[] # empty list
 
-# data=['ram',345,True]
-# data.append(['sophia','hari'])
+# data=['ram',"sita","laxmi","anil","hari","ram"]
+# data1 =data.copy()
+# data.remove("ram")
+# print(data1)
+# data.remove("ram")
 # print(data)
-# print(dir(data))
+# print(data.count('test'))
+# print(ord('Z'))
+# data.sort(reverse=False)
+# data.sort()
+# print(data)
+# data1=['laxmi','nandira']
+# data.extend(data1)
+# print(data)
+# data.append(data1)
+# print(data)
+# data.insert(1,"sophia")
+# print(data)
+# print(data.pop(1))
+# data.append("hari")
+# print(data)
 # print(len(data))
-# print(data[1])
-# data[0]='sophia'
-# print(data)
+# print(dir(data))
+# print(type(data))
 
-# data=[
-#     [12,34,56,78,97],
-#     ['ram','sophia','hari','gita','sita'],
-# ]
+# len()
+# dir()
+# type()
 
-# print(data[1][2])
-
-# data=[
-#     [12,34,56,78,97],
-#     [67,87,[[[600]],900],12,34,54]
-# ]
-
-# print(data[1][2][0][0][0])
-# print(data[1][2][1])
-
-# data=[45,67,78,98]
-# data.pop(1)
-# print(data)
-# data.insert(1,400)
-# print(data)
-# data.append(56)
-# print(data)
-
-
-data=[
-    [34,56,78],
-    [55,77,88]
-]
-
-# print(data)
-# data[0].pop(0)
-# data[1].pop()
-# print(data)
-
-
-# append()
-# insert()
-# pop()
-# remove()
-# clear()
-# sort()
-# reverse()
-# count()
-# index()
-# copy()
-
-# tuple,set,disctionary
+# 
+# index start from 0
