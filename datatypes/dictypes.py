@@ -30,32 +30,45 @@
 
 # print(user['address']['city'])
 
-students=[
-    {
-        'name':"ram",
-        "country":[
-            {
-                'cname':"nepal",
-                'capital':"ktm"
-            },
-            {
-                'cname':"india",
-                'capital':"delhi"
-            }
-        ]
+# students=[
+#     {
+#         'name':"ram",
+#         "country":[
+#             {
+#                 'cname':"nepal",
+#                 'capital':"ktm"
+#             },
+#             {
+#                 'cname':"india",
+#                 'capital':"delhi"
+#             }
+#         ]
         
-    },
-    {
-        'name':"sita",
-        "country":[
-            {
-                'name':"nepal",
-                'capital':"pokhara"
-            },
-            {
-                'name':"china",
-                'capital':"beijing"
-            }
-        ]
-    }
+#     },
+#     {
+#         'name':"sita",
+#         "country":[
+#             {
+#                 'name':"nepal",
+#                 'capital':"pokhara"
+#             },
+#             {
+#                 'name':"china",
+#                 'capital':"beijing"
+#             }
+#         ]
+#     }
+# ]
+
+# print(students[0]['name'])
+# print(students[0]['country'][0]['cname'])
+# print(students[0]['country'][1]['cname'])
+
+
+data=[
+    ['ram','sita','gita'],
+    ['nepal',['india'],'china'],
+    {'name':"hari"}
+
 ]
+# ram,india,hari
