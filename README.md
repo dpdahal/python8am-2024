@@ -19,3 +19,18 @@
 7. Set
 8. Dictionary
 
+# Operators
+1. Arithmetic: +, -, *, /, %, //, **
+2. Comparison: ==, !=, >, <, >=, <=
+3. Logical: and, or, not
+4. Bitwise: &, |, ^, ~, <<, >>
+5. Assignment: =, +=, -=, *=, /=, %=, //=, **=
+6. Identity: is, is not
+7. Membership: in, not in
+
+# Control Structures
+1. Conditional Statements: if, elif, else
+2. Looping Statements: for, while
+3. Transfer Statements: break, continue, pass
+
+
